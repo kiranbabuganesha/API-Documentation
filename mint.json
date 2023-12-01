@@ -1,65 +1,179 @@
 {
+  "$schema": "https://mintlify.com/schema.json",
   "name": "Mintlify",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://mintlify.com"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#4ADE80",
-    "dark": "#166534"
+    "primary": "#2AB673",
+    "light": "#55D799",
+    "dark": "#117866",
+    "anchors": {
+      "from": "#117866",
+      "to": "#2AB673"
+    }
+  },
+  "api": {
+    "auth": {
+      "method": "bearer"
+    }
   },
   "topbarLinks": [
     {
-      "name": "Contact Us",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Community",
+      "url": "https://mintlify.com/community"
     }
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://1tc7vihvbit.typeform.com/to/pZJ31XZB"
+    "url": "https://mintlify.com/start"
   },
-  "anchors": [
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "tabs": [
     {
-      "name": "API Components",
-      "icon": "rectangle-terminal",
-      "color": "#f59f0b",
-      "url": "api-components"
+      "name": "Writing Content",
+      "url": "content"
     },
     {
-      "name": "Community",
-      "icon": "comments",
-      "color": "#2564eb",
-      "url": "https://discord.gg/MPNgtSZkgK"
+      "name": "API References",
+      "url": "api-playground"
     }
   ],
   "navigation": [
     {
       "group": "Getting Started",
-      "pages": ["introduction", "quickstart"]
+      "pages": ["quickstart", "development"]
+    },
+    {
+      "group": "Styling",
+      "pages": [
+        "settings/global",
+        "settings/navigation",
+        "settings/custom-styling",
+        "settings/ctas-footers"
+      ],
+      "icon": "pencil"
+    },
+    {
+      "group": "Configurations",
+      "pages": [
+        {
+          "group": "Custom Domain",
+          "pages": [
+            "settings/custom-domain/subdomain",
+            "settings/custom-domain/subdirectory"
+          ]
+        },
+        "settings/seo",
+        "settings/broken-links",
+        "settings/versioning",
+        "settings/add-members"
+      ]
+    },
+    {
+      "group": "Writing Content",
+      "pages": [
+        "content/page",
+        "content/text",
+        "content/image-embeds",
+        "content/list-table",
+        "content/code",
+        "content/reusable-snippets"
+      ]
+    },
+    {
+      "group": "API References",
+      "pages": [
+        "api-playground/overview",
+        {
+          "group": "Using OpenAPI",
+          "pages": [
+            "api-playground/openapi/setup",
+            "api-playground/openapi/writing-openapi"
+          ]
+        },
+        {
+          "group": "Using MDX",
+          "pages": [
+            "api-playground/mdx/configuration",
+            "api-playground/mdx/authentication"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Integrations",
+      "pages": [
+        "integrations/customer-support",
+        {
+          "group": "Analytics",
+          "pages": [
+            "integrations/analytics/overview",
+            "integrations/analytics/amplitude",
+            "integrations/analytics/clearbit",
+            "integrations/analytics/fathom",
+            "integrations/analytics/google-analytics",
+            "integrations/analytics/google-tag-manager",
+            "integrations/analytics/hotjar",
+            "integrations/analytics/koala",
+            "integrations/analytics/logrocket",
+            "integrations/analytics/mixpanel",
+            "integrations/analytics/pirsch",
+            "integrations/analytics/plausible",
+            "integrations/analytics/posthog"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Organization Components",
+      "pages": [
+        "content/components/accordion",
+        "content/components/accordion-group",
+        "content/components/card",
+        "content/components/card-group",
+        "content/components/steps",
+        "content/components/tabs"
+      ]
+    },
+    {
+      "group": "Context Components",
+      "pages": [
+        "content/components/callouts",
+        "content/components/code",
+        "content/components/code-group",
+        "content/components/frame",
+        "content/components/tooltip",
+        "content/api-components"
+      ]
     },
     {
       "group": "API Components",
-      "pages": ["api-playground/overview", "api-playground/configuration"]
-    },
-    {
-      "group": "Settings",
-      "pages": ["settings/global", "settings/page"]
-    },
-    {
-      "group": "Analytics",
-      "pages": ["analytics/posthog"]
+      "pages": [
+        "api-playground/components/api/param",
+        "api-playground/components/api/response",
+        "api-playground/components/api/expandable",
+        "api-playground/components/api/sticky-examples"
+      ]
     }
   ],
   "footerSocials": {
     "github": "https://github.com/mintlify",
-    "discord": "https://discord.gg/MPNgtSZkgK",
+    "slack": "https://mintlify.com/community",
     "twitter": "https://twitter.com/mintlify"
   },
-  "integrations": {
-    "intercom": "abcdefz",
-    "frontchat": "abcdez"
+  "analytics": {
+    "ga4": {
+      "measurementId": "G-RCYWHL7EQ7"
+    },
+    "koala": {
+      "publicApiKey": "pk_76a6caa274e800f3ceff0b2bc6b9b9d82ab8"
+    }
   }
 }
-
