@@ -1,3 +1,14 @@
 {
-  "title":"Sprouts API Documentation"
+  "name": "Sprouts API Documentation",
+  "tabs": [
+    {
+        "name": "API References",
+        "url": "api-references"
+    },
+    {
+        "name": "Content",
+        "url": "content"
+    }
+]
+
 }
