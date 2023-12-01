@@ -1,11 +1,11 @@
 {
     "name":"Sprouts API Documentation",
     "logo":{
-        "light": "logo/Sprouts Icon Logo.png",
-        "dark": "logo/Sprouts Icon Logo.png",
+        "light": "logo/logo.svg",
+        "dark": "logo/logo.svg",
         "href": "https://sprouts.ai"
     },
-    "favicon": "logo/Sprouts Icon Logo.png",
+    "favicon": "logo/logo.svg",
     "colors": {
       "primary": "#2AB673",
       "light": "#55D799",
