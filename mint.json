@@ -1,6 +1,6 @@
 {
+    "$schema": "https://mintlify.com/schema.json",
     "name": "Sprouts",
-    
     "favicon": "/favicon.svg",
     "colors": {
       "primary": "#2AB673",
