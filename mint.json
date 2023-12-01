@@ -10,5 +10,11 @@
         "from": "#117866",
         "to": "#2AB673"
       }
-    }
+    },
+    "navigation": [
+        {
+          "group": "Getting Started",
+          "pages": ["welcome-to-sprouts"]
+        }
+    ]
 }
